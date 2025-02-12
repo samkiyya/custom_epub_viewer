@@ -206,13 +206,13 @@
       "languageVersion": "3.3"
     },
     {
-      "name": "vocsy_epub_viewer",
+      "name": "ethiobook_epub_viewer",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2025-02-12T06:51:50.544837Z",
+  "generated": "2025-02-12T09:09:02.463774Z",
   "generator": "pub",
   "generatorVersion": "3.6.2",
   "flutterRoot": "file:///C:/src/flutter",
