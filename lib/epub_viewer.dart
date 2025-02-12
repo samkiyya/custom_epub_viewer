@@ -25,6 +25,7 @@ class VocsyEpub {
       {Color themeColor = Colors.blue,
       String identifier = 'book',
       bool nightMode = false,
+      bool sepiaMode = false,
       EpubScrollDirection scrollDirection = EpubScrollDirection.ALLDIRECTIONS,
       bool allowSharing = false,
       bool enableTts = false}) async {
@@ -34,11 +35,11 @@ class VocsyEpub {
       "scrollDirection": Util.getDirection(scrollDirection),
       "allowSharing": allowSharing,
       'enableTts': enableTts,
-      'nightMode': nightMode
+      'nightMode': nightMode,
+      'sepiaMode': sepiaMode, // Not available for iOS
     };
     await _channel.invokeMethod('setConfig', agrs);
   }
-
   /// bookPath should be a local file.
   /// Last location is only available for android.
   static void open(String bookPath, {EpubLocator? lastLocation}) async {

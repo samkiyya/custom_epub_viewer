@@ -34,9 +34,10 @@ public class SwiftEpubViewerPlugin: NSObject, FlutterPlugin,FolioReaderPageDeleg
         let allowSharing = arguments["allowSharing"] as! Bool
         let enableTts = arguments["enableTts"] as! Bool
         let nightMode = arguments["nightMode"] as! Bool
+        let sepiaMode = arguments["sepiaMode"] as! Bool
 
         self.config = EpubConfig.init(Identifier: Identifier,tintColor: color,allowSharing:
-            allowSharing,scrollDirection: scrollDirection, enableTts: enableTts, nightMode: nightMode)
+            allowSharing,scrollDirection: scrollDirection, enableTts: enableTts, nightMode: nightMode,sepiaMode: sepiaMode)
 
         break
       case "open":
