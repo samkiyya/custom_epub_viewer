@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:vocsy_epub_viewer/epub_viewer.dart';
+import 'package:ethiobook_epub_viewer/epub_viewer.dart';
 
 void main() async {
   runApp(MyApp());
@@ -109,8 +109,8 @@ class _MyAppState extends State<MyApp> {
                             themeColor: Theme.of(context).primaryColor,
                             identifier: "iosBook",
                             scrollDirection: EpubScrollDirection.ALLDIRECTIONS,
-                            allowSharing: true,
-                            enableTts: true,
+                            // allowSharing: true,
+                            // enableTts: true,
                             nightMode: true,
                           );
 
