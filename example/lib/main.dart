@@ -177,7 +177,7 @@ class _MyAppState extends State<MyApp> {
     if (!File(path).existsSync()) {
       await file.create();
       await dio.download(
-        "https://vocsyinfotech.in/envato/cc/flutter_ebook/uploads/22566_The-Racketeer---John-Grisham.epub",
+        "https://github.com/samkiyya/custom_epub_viewer/blob/main/The-Racketeer-John-Grisham.epub",
         path,
         deleteOnError: true,
         onReceiveProgress: (receivedBytes, totalBytes) {
