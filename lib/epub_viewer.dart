@@ -1,3 +1,5 @@
+library ethiobook_epub_viewer;
+
 import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
@@ -12,7 +14,7 @@ part 'model/epub_locator.dart';
 part 'utils/util.dart';
 
 class VocsyEpub {
-  static const MethodChannel _channel = const MethodChannel('vocsy_epub_viewer');
+  static const MethodChannel _channel = const MethodChannel('ethiobook_epub_viewer');
   static const EventChannel _pageChannel = const EventChannel('page');
 
   /// Configure Viewer's with available values

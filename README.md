@@ -1,10 +1,10 @@
-# Vocsy Epub Viewer [![pub package](https://img.shields.io/pub/v/vocsy_epub_viewer.svg)](https://pub.dartlang.org/packages/vocsy_epub_viewer)
+# Vocsy Epub Viewer [![pub package](https://img.shields.io/pub/v/ethiobook_epub_viewer.svg)](https://pub.dartlang.org/packages/ethiobook_epub_viewer)
 
 originally a fork of [epub_kitty](https://github.com/451518849/epub_kitty) with few more features. i
 made this out of epub_kitty because the author was inactive(he isn't merging PRs or attending to
 issues) and i started having alot of issues with the plugin
 
-vocsy_epub_viewer is an epub ebook reader that encapsulates
+ethiobook_epub_viewer is an epub ebook reader that encapsulates
 the [folioreader](https://folioreader.github.io/FolioReaderKit/) framework. It supports iOS and
 android.
 
@@ -27,41 +27,41 @@ android.
 
 + Light
 <a href="#screenshots">
-  <img src="https://raw.githubusercontent.com/kaushikgodhani/vocsy_epub_viewer/main/screenshots/S1.jpg" width="200px">
+  <img src="https://raw.githubusercontent.com/samkiyya/ethiobook_epub_viewer/main/screenshots/S1.jpg" width="200px">
 
 </a>&nbsp;&nbsp;
 <a href="#screenshots">
-  <img src="https://raw.githubusercontent.com/kaushikgodhani/vocsy_epub_viewer/main/screenshots/S3.jpg" width="200px">
+  <img src="https://raw.githubusercontent.com/samkiyya/ethiobook_epub_viewer/main/screenshots/S3.jpg" width="200px">
 </a>&nbsp;&nbsp;
 <a href="#screenshots">
-  <img src="https://raw.githubusercontent.com/kaushikgodhani/vocsy_epub_viewer/main/screenshots/S11.jpg" width="200px">
+  <img src="https://raw.githubusercontent.com/samkiyya/ethiobook_epub_viewer/main/screenshots/S11.jpg" width="200px">
 </a>&nbsp;&nbsp;
 <a href="#screenshots">
-  <img src="https://raw.githubusercontent.com/kaushikgodhani/vocsy_epub_viewer/main/screenshots/S4.jpg" width="200px">
+  <img src="https://raw.githubusercontent.com/samkiyya/ethiobook_epub_viewer/main/screenshots/S4.jpg" width="200px">
 </a>&nbsp;&nbsp;
 <a href="#screenshots">
-  <img src="https://raw.githubusercontent.com/kaushikgodhani/vocsy_epub_viewer/main/screenshots/S5.jpg" width="200px">
+  <img src="https://raw.githubusercontent.com/samkiyya/ethiobook_epub_viewer/main/screenshots/S5.jpg" width="200px">
 </a>&nbsp;&nbsp;
 <a href="#screenshots">
-  <img src="https://raw.githubusercontent.com/kaushikgodhani/vocsy_epub_viewer/main/screenshots/S6.jpg" width="200px">
+  <img src="https://raw.githubusercontent.com/samkiyya/ethiobook_epub_viewer/main/screenshots/S6.jpg" width="200px">
 </a>&nbsp;&nbsp;
 
 + Dark
 
 <a href="#screenshots">
-  <img src="https://raw.githubusercontent.com/kaushikgodhani/vocsy_epub_viewer/main/screenshots/S2.jpg" width="200px">
+  <img src="https://raw.githubusercontent.com/samkiyya/ethiobook_epub_viewer/main/screenshots/S2.jpg" width="200px">
 </a>&nbsp;&nbsp;
 <a href="#screenshots">
-  <img src="https://raw.githubusercontent.com/kaushikgodhani/vocsy_epub_viewer/main/screenshots/S7.jpg" width="200px">
+  <img src="https://raw.githubusercontent.com/samkiyya/ethiobook_epub_viewer/main/screenshots/S7.jpg" width="200px">
 </a>&nbsp;&nbsp;
 <a href="#screenshots">
-  <img src="https://raw.githubusercontent.com/kaushikgodhani/vocsy_epub_viewer/main/screenshots/S8.jpg" width="200px">
+  <img src="https://raw.githubusercontent.com/samkiyya/ethiobook_epub_viewer/main/screenshots/S8.jpg" width="200px">
 </a>&nbsp;&nbsp;
 <a href="#screenshots">
-  <img src="https://raw.githubusercontent.com/kaushikgodhani/vocsy_epub_viewer/main/screenshots/S9.jpg" width="200px">
+  <img src="https://raw.githubusercontent.com/samkiyya/ethiobook_epub_viewer/main/screenshots/S9.jpg" width="200px">
 </a>&nbsp;&nbsp;
 <a href="#screenshots">
-  <img src="https://raw.githubusercontent.com/kaushikgodhani/vocsy_epub_viewer/main/screenshots/S10.jpg" width="200px">
+  <img src="https://raw.githubusercontent.com/samkiyya/ethiobook_epub_viewer/main/screenshots/S10.jpg" width="200px">
 </a>&nbsp;&nbsp;
 
 ## Install
@@ -76,7 +76,7 @@ Import into pubspec.yaml
 
 ```
 dependencies:
-  vocsy_epub_viewer: latest_version
+  ethiobook_epub_viewer: latest_version
 ```
 
 **NOTE** Please add this to the release build type in your app build.gradle to avoid crashes on android
@@ -90,7 +90,7 @@ shrinkResources false
 **NOTE** Add These Lines In manifest
 
 <a href="#screenshots">
-  <img src="https://raw.githubusercontent.com/kaushikgodhani/vocsy_epub_viewer/main/screenshots/img.png" >
+  <img src="https://raw.githubusercontent.com/samkiyya/ethiobook_epub_viewer/main/screenshots/img.png" >
 </a>&nbsp;&nbsp;
 
 + 1
@@ -119,7 +119,7 @@ shrinkResources false
     android:exported="true"
 ```
 
-**NOTE** `android` -> `app` -> `src` -> `main` -> `res` -> `xml` Inside xml Folder create xml file [network_security_config.xml](https://github.com/kaushikgodhani/vocsy_epub_viewer/tree/main/example/android/app/src/main/res/xml)
+**NOTE** `android` -> `app` -> `src` -> `main` -> `res` -> `xml` Inside xml Folder create xml file [network_security_config.xml](https://github.com/samkiyya/ethiobook_epub_viewer/tree/main/example/android/app/src/main/res/xml)
 
 ## Usage
 
@@ -181,7 +181,7 @@ VocsyEpub.locatorStream.listen((locator) {
 
  ```
 
-Check the [Example](https://github.com/kaushikgodhani/vocsy_epub_viewer/blob/main/example/lib/main.dart) for implementation
+Check the [Example](https://github.com/samkiyya/ethiobook_epub_viewer/blob/main/example/lib/main.dart) for implementation
 
 ## Issues
 
