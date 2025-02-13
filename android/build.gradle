@@ -25,7 +25,7 @@ rootProject.allprojects {
 
 
 android {
-    namespace 'com.vocsy.epub_viewer'
+    namespace 'com.ethiobook.epub_viewer'
     compileSdkVersion 34
 
     defaultConfig {

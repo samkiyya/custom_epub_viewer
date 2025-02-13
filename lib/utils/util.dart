@@ -22,7 +22,7 @@ class Util {
   }
 
   /// Create a temporary [File] from an asset epub
-  /// to be opened by [VocsyEpub]
+  /// to be opened by [EtBookEpub]
   static Future<File> getFileFromAsset(String asset) async {
     ByteData data = await rootBundle.load(asset);
     String dir = (await getTemporaryDirectory()).path;

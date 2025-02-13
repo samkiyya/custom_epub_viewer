@@ -13,7 +13,7 @@ part 'model/enum/epub_scroll_direction.dart';
 part 'model/epub_locator.dart';
 part 'utils/util.dart';
 
-class VocsyEpub {
+class EtBookEpub {
   static const MethodChannel _channel = const MethodChannel('ethiobook_epub_viewer');
   static const EventChannel _pageChannel = const EventChannel('page');
 

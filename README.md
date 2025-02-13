@@ -1,4 +1,4 @@
-# Vocsy Epub Viewer [![pub package](https://img.shields.io/pub/v/ethiobook_epub_viewer.svg)](https://pub.dartlang.org/packages/ethiobook_epub_viewer)
+# EtBook Epub Viewer [![pub package](https://img.shields.io/pub/v/ethiobook_epub_viewer.svg)](https://pub.dartlang.org/packages/ethiobook_epub_viewer)
 
 originally a fork of [epub_kitty](https://github.com/451518849/epub_kitty) with few more features. i
 made this out of epub_kitty because the author was inactive(he isn't merging PRs or attending to
@@ -124,7 +124,7 @@ shrinkResources false
 ## Usage
 
 ```dart
-VocsyEpub.setConfig(
+EtBookEpub.setConfig(
            themeColor: Theme.of(context).primaryColor,
            identifier: "iosBook",
            scrollDirection: EpubScrollDirection.ALLDIRECTIONS,
@@ -137,7 +137,7 @@ VocsyEpub.setConfig(
  * @bookPath
  * @lastLocation (optional and only android)
  */
-VocsyEpub.open(
+EtBookEpub.open(
           'bookPath',
            lastLocation: EpubLocator.fromJson({
     "bookId": "2239",
@@ -151,7 +151,7 @@ VocsyEpub.open(
 
 // Get locator which you can save in your database
 
-VocsyEpub.locatorStream.listen((locator) {
+EtBookEpub.locatorStream.listen((locator) {
  print('LOCATOR: ${EpubLocator.fromJson(jsonDecode(locator))}');
  // convert locator from string to json and save to your database to be retrieved later
 });
@@ -161,7 +161,7 @@ VocsyEpub.locatorStream.listen((locator) {
 You can also load epub from your assets using `EpubViewer.openAsset()`
 
 ```dart
-await VocsyEpub.openAsset('assets/3.epub',
+await EtBookEpub.openAsset('assets/3.epub',
 lastLocation: EpubLocator.fromJson({
  "bookId": "2239",
  "href": "/OEBPS/ch06.xhtml",
@@ -174,7 +174,7 @@ lastLocation: EpubLocator.fromJson({
 
 // Get locator which you can save in your database
 
-VocsyEpub.locatorStream.listen((locator) {
+EtBookEpub.locatorStream.listen((locator) {
  print('LOCATOR: ${EpubLocator.fromJson(jsonDecode(locator))}');
  // convert locator from string to json and save to your database to be retrieved later
 });
